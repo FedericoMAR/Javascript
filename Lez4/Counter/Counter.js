@@ -1,9 +1,5 @@
 let counter = 0;
 
-var fs = require("fs");
-var text = fs.readFileSync("./movies.md");
-var textByLine = text.split("\n")
-var film = textByLine.split("|");
 
 const divContatore = document.getElementById('contatore');
 const divFilm = document.getElementById('film');
